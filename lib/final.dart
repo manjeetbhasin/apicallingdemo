@@ -86,12 +86,12 @@ class _MyHomePageState extends State<MyHomePage> {
               icon: Text("Posts"),
             ),
             BottomNavigationBarItem(
-              label: "Followers",
-              icon: Text("${arena?.followers}"),
+              label: "${arena?.followers} ",
+              icon: Text("Followers"),
             ),
             BottomNavigationBarItem(
-              label: "Following",
-              icon: Text("${arena?.following}"),
+              label: "${arena?.following} ",
+              icon: Text("Following"),
             ),
 
 
